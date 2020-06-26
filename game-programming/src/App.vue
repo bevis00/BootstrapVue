@@ -14,12 +14,12 @@
       </h1>
 
       <div align="center">
-        <b-card-group id="cardGroup1" columns>
+        <b-card-group id="cardGroup" columns>
           <b-card
             title="Works0"
             img-src="gif/hw0.gif"
             img-top
-            style="max-width: 20rem;"
+            style="max-width: 25rem; margin-bottom:2rem;"
             text-variant="dark"
           >
             <b-card-text>
@@ -37,7 +37,7 @@
             title="Works1"
             img-src="gif/hw1.gif"
             img-top
-            style="max-width: 20rem;"
+            style="max-width: 25rem; margin-bottom:2rem;"
             text-variant="dark"
           >
             <b-card-text>
@@ -55,7 +55,7 @@
             title="Works2"
             img-src="gif/hw2.gif"
             img-top
-            style="max-width: 20rem;"
+            style="max-width: 25rem; margin-bottom:2rem;"
             text-variant="dark"
           >
             <b-card-text>
@@ -68,16 +68,12 @@
               >Link</b-button
             >
           </b-card>
-        </b-card-group>
-      </div>
 
-      <div align="center">
-        <b-card-group id="cardGroup2" columns>
           <b-card
             title="Works3"
             img-src="gif/hw3.gif"
             img-top
-            style="max-width: 20rem;"
+            style="max-width: 25rem; margin-bottom:2rem;"
             text-variant="dark"
           >
             <b-card-text>
@@ -95,7 +91,7 @@
             title="Works4"
             img-src="gif/hw4.gif"
             img-top
-            style="max-width: 20rem;"
+            style="max-width: 25rem; margin-bottom:2rem;"
             text-variant="dark"
           >
             <b-card-text>
@@ -113,7 +109,7 @@
             title="Works5"
             img-src="gif/hw5.gif"
             img-top
-            style="max-width: 20rem;"
+            style="max-width: 25rem; margin-bottom:2rem;"
             text-variant="dark"
           >
             <b-card-text>
@@ -129,16 +125,12 @@
               >Link</b-button
             >
           </b-card>
-        </b-card-group>
-      </div>
 
-      <div align="center">
-        <b-card-group id="cardGroup3" columns>
           <b-card
             title="Works6"
             img-src="gif/hw6.gif"
             img-top
-            style="max-width: 20rem;"
+            style="max-width: 25rem; margin-bottom:2rem;"
             text-variant="dark"
           >
             <b-card-text>
@@ -197,8 +189,14 @@ body {
   max-width: 100%;
 }
 
+#cardGroup {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
 #title2 {
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 #returnBtn {
