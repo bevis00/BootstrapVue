@@ -9,7 +9,9 @@
       <h1 align="center">
         <font face="Bookman Old Style">Game Programming </font>
       </h1>
-      <h1 align="center"><font face="Bookman Old Style">Works List</font></h1>
+      <h1 align="center" id="title2">
+        <font face="Bookman Old Style">Works List</font>
+      </h1>
       <b-card-group id="cardGroup1" columns>
         <b-card
           title="Works0"
@@ -144,13 +146,17 @@
           >
         </b-card>
       </b-card-group>
-      <b-button
-        pill
-        size="lg"
-        variant="light"
-        href="https://bevis00.github.io/Resume/index.html"
-        >Indexに戻ります</b-button
-      >
+
+      <div align="center">
+        <b-button
+          pill
+          size="lg"
+          variant="light"
+          href="https://bevis00.github.io/Resume/index.html"
+          id="returnBtn"
+          >Index</b-button
+        >
+      </div>
     </b-jumbotron>
   </div>
 </template>
@@ -178,9 +184,17 @@ body {
   margin: 0;
   padding-top: 10vh;
   padding-bottom: 10vh;
-  padding-left: 20vw;
-  padding-right: 20vw;
+  padding-left: 10vw;
+  padding-right: 10vw;
   max-height: 100%;
   max-width: 100%;
+}
+
+#title2 {
+  margin-bottom: 2rem;
+}
+
+#returnBtn {
+  margin-top: 5rem;
 }
 </style>
