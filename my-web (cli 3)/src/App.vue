@@ -63,7 +63,7 @@
                 <h1 style="color: #000000">Web 3D</h1>
               </b-carousel-slide>
               <b-carousel-slide img-src="img/ComputerGraphics.jpg">
-                <h1 style="color: #ffffff">Computer Graphics</h1>
+                <h1 style="color: #000000">Computer Graphics</h1>
               </b-carousel-slide>
             </b-carousel>
           </b-col>
