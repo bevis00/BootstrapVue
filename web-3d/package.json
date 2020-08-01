@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "bootstrap": "^4.5.0",
-    "bootstrap-vue": "^2.15.0",
+    "bootstrap-vue": "^2.16.0",
     "core-js": "^3.6.5",
     "vue": "^2.6.11"
   },
@@ -23,7 +23,7 @@
     "sass": "^1.26.10",
     "sass-loader": "^9.0.2",
     "vue-template-compiler": "^2.6.11",
-    "webpack": "^4.43.0"
+    "webpack": "^4.44.1"
   },
   "eslintConfig": {
     "root": true,
