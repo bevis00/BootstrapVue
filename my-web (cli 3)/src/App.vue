@@ -8,11 +8,11 @@
     >
       <template slot="header">謝時銘</template>
       <template slot="lead">
-        私はソフトウェア開発に情熱を注いでおり、プログラミングの効率と品質を向上させるために、余暇に読書や実験をすることで自分のスキルを豊かにしています。
+        私はソフトウェアの開発に情熱を注いで、プログラミングの効率と品質を向上させるために、余暇に読書や実験をすることで自分のスキルを豊かにしています。
       </template>
       <hr style="background-color: #282828" />
       <p>
-        このページは作品集です
+        このページはポートフォリオです
       </p>
       <div align="center">
         <b-button variant="primary" href="https://github.com/bevis00/Resume"
@@ -54,7 +54,7 @@
                 <b-button variant="outline-light" v-on:click="show = true"
                   >video</b-button
                 >
-                <h1 style="color: #ffffff">Tron 立方射擊遊戲</h1>
+                <h1 style="color: #ffffff">Tron - Cube Shooting Game</h1>
               </b-carousel-slide>
               <b-carousel-slide img-src="img/GameProgramming.jpg">
                 <h1 style="color: #ffffff">Game Programming</h1>
