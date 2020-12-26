@@ -16,14 +16,14 @@
       <div align="center">
         <b-card-group id="cardGroup" columns>
           <b-card
-            title="Works0"
+            title="Works 0"
             img-src="gif/hw0.gif"
             img-top
             style="max-width: 25rem; margin-bottom:2rem;"
             text-variant="dark"
           >
             <b-card-text>
-              私のThree.js初めてのプログラムです、一つモデル動きますのアニメーションです。
+              Three.jsを使って初めてのプログラムです。モデルが動くアニメーションです。
             </b-card-text>
 
             <b-button
@@ -34,14 +34,14 @@
           </b-card>
 
           <b-card
-            title="Works1"
+            title="Works 1"
             img-src="gif/hw1.gif"
             img-top
             style="max-width: 25rem; margin-bottom:2rem;"
             text-variant="dark"
           >
             <b-card-text>
-              初めて操作できますのThree.jsプログラムです、操作について、中のページの上があります。
+              初めて操作できるThree.jsのプログラムです。操作について、リンク内のページの上部に提示されています。
             </b-card-text>
 
             <b-button
@@ -52,14 +52,14 @@
           </b-card>
 
           <b-card
-            title="Works2"
+            title="Works 2"
             img-src="gif/hw2.gif"
             img-top
             style="max-width: 25rem; margin-bottom:2rem;"
             text-variant="dark"
           >
             <b-card-text>
-              平らな試作品です、カメラのコントロールの練習です。
+              横スクロールゲームの試作品です。目的はカメラと操作することを組み合わせるに実験します。あとスクロールバックグラウンドや色々なテクスチャを試しました。
             </b-card-text>
 
             <b-button
@@ -70,14 +70,14 @@
           </b-card>
 
           <b-card
-            title="Works3"
+            title="Works 3"
             img-src="gif/hw3.gif"
             img-top
             style="max-width: 25rem; margin-bottom:2rem;"
             text-variant="dark"
           >
             <b-card-text>
-              前の作品の応用を伸ばす、操作に音を追加、操作について、方向キーはアバターの移動です、スペースキーはアバターのジャンプです。（音量を注意してください）
+              このプログラムは前の作品の応用を伸ばします。ゲーム性を増やすために、スプライトのアバターに元のローリングボールを変更して、地形変化を追加し、操作する時のサウンドエフェクトも追加しました。操作について、方向キーがアバターを移動させて、スペースキーがアバターをジャンプさせます。（音量を注意してください）
             </b-card-text>
 
             <b-button
@@ -88,14 +88,14 @@
           </b-card>
 
           <b-card
-            title="Works4"
+            title="Works 4"
             img-src="gif/hw4.gif"
             img-top
             style="max-width: 25rem; margin-bottom:2rem;"
             text-variant="dark"
           >
             <b-card-text>
-              マウスを操作します、グリッド内を左クリック、この時、ディスクはクリックした場所に移動します、いろいろな小さいアバターはディスクに追跡します。
+              マウスを操作して、グリッド内にマウスの左ボタンをクリックして、その時円盤状のモデルはクリックした場所に移動します。すると、円盤状のモデルは小さいアバターたちに追跡られることになります。
             </b-card-text>
 
             <b-button
@@ -106,14 +106,14 @@
           </b-card>
 
           <b-card
-            title="Works5"
+            title="Works 5"
             img-src="gif/hw5.gif"
             img-top
             style="max-width: 25rem; margin-bottom:2rem;"
             text-variant="dark"
           >
             <b-card-text>
-              これは、人体のアニメーションです、動作のインスピレーションの源は<a
+              これは人体のアニメーションです、動作のインスピレーションの源は<a
                 href="https://www.youtube.com/watch?v=_mkiGMtbrPM"
                 >World Order</a
               >のダンスです。
@@ -127,14 +127,14 @@
           </b-card>
 
           <b-card
-            title="Works6"
+            title="Works 6"
             img-src="gif/hw6.gif"
             img-top
             style="max-width: 25rem; margin-bottom:2rem;"
             text-variant="dark"
           >
             <b-card-text>
-              人体のボールピッチングアニメーションのシミュレーションです。
+              このプログラムは人体のボールピッチングのシミュレーションアニメーションです。ボールが投げられた後、ボールの動きの線に動きの跡が描かれます。
             </b-card-text>
 
             <b-button
