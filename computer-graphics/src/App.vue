@@ -16,14 +16,14 @@
       <div align="center">
         <b-card-group id="cardGroup" columns>
           <b-card
-            title="Works1"
+            title="Works 1"
             img-src="gif/hw1.gif"
             img-top
             style="max-width: 25rem; margin-bottom:2rem;"
             text-variant="dark"
           >
             <b-card-text>
-              カメラを使用して2D平面モデルを観る、これはストップウォッチのモデル、作る原理は、フラットモデルにPNG画像つや消しを貼り付ける、そして、フラットモデル透明度の値がtrueに設定されている、完全なストップウォッチを表示できる、ウォッチングを切り替える3つのポインターモードです。
+              これは操作できるストップウォッチのモデルです。このプログラムの作り方はカメラの画角を固定して、2Dモデルの前にセットします。カメラが固定されているから、この画面は固定するウェブページのようにプレゼンテーションされます。モデルの作り方はPNG画像のバックグラウンドを消して、そしてフラットモデルに貼り付けます。次はフラットモデルの透明度の値がtrueに設定します。三つボタンとポインタの回転機能を作って、さらに組み合わせたあとこのプログラムが完成です。
             </b-card-text>
 
             <b-button
@@ -34,14 +34,14 @@
           </b-card>
 
           <b-card
-            title="Works2"
+            title="Works 2"
             img-src="gif/hw3.gif"
             img-top
             style="max-width: 25rem; margin-bottom:2rem;"
             text-variant="dark"
           >
-            <b-card-text
-              >小さな戦車ゲーム、一人称視点と三人称視点の切り替えを提供する、戦車を操作してターゲットを撃ちます。
+            <b-card-text>
+              小さな戦車ゲームです。一人称視点と三人称視点その二つ視点があります。Switch Cameraボタンをクリックして、視点が切り替えさせられます。戦車を移動して、ターゲットを砲撃することができます。ターゲットが砲撃られた後、ターゲットが新しい位置にリセットします。操作について、リンク内のページの上部に提示されています。
             </b-card-text>
 
             <b-button
@@ -52,14 +52,14 @@
           </b-card>
 
           <b-card
-            title="Works3"
+            title="Works 3"
             img-src="gif/hw4.gif"
             img-top
             style="max-width: 25rem; margin-bottom:2rem;"
             text-variant="dark"
           >
             <b-card-text>
-              車のモデルをシーンにインポートする、分割画面を使用して、さまざまな表示モードで車の操作を見ることができます。
+              今回は自分のモデルを使いません。ネットで無料のモデルをダウンロードして、そして、ダウンロードしたモデルでロードを試します。車のモデルを探した後、シーン内にロードします。次は初めて分割画面を使用します。先ずは、二つのカメラを作って、一つはグリッドの真上にセットして、もう一つはシーン内の車のモデルの後ろにセットします。最後はシーン内の車を操作して、二つの画角でプレゼンテーションを観察します。
             </b-card-text>
 
             <b-button
@@ -70,14 +70,14 @@
           </b-card>
 
           <b-card
-            title="Works4"
+            title="Works 4"
             img-src="gif/hw5.gif"
             img-top
             style="max-width: 25rem; margin-bottom:2rem;"
             text-variant="dark"
           >
             <b-card-text>
-              Three.jsを使用してシーンでランプ操作のスイッチモデルを作成する、HTMLによって提供されるマウスクリックイベントをスイッチと組み合わせる、異なる光源を切り替えるときに、シーン内モデルの光と影の変化を観察します。
+              Three.jsを使って、部屋の机のシーンをシミュレーションします。机や椅子や電気スタンドなど色々なモデルをロードします。電灯コントロールのリモコンを作って、机の上にセットします。ボタンをクリックして、リモコンのボタンや電灯のプレゼンテーションを観察します。
             </b-card-text>
 
             <b-button
